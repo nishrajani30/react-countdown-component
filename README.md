@@ -38,7 +38,7 @@ Creating shareable TypeScript libraries using Vite is a great way to share your 
 First, create a new directory for your project and navigate into it:
 
 ```bash
-  mkdir react-countdown-component && cd react-countdown-component
+  mkdir react-countdown-component-guide && cd react-countdown-component-guide
 ```
 
 Then, initialize a new npm project using the following command:
@@ -191,13 +191,13 @@ This will upload your package to the registry, where it can be installed by othe
 To use the published component in another project, you can install it using the following command:
 
 ```bash
-    npm install react-countdown-component
+    npm install react-countdown-component-guide
 ```
 
 Then, you can import and use the component in your code like this:
 
 ```javascript
-    import { Countdown } from 'react-countdown-component';
+    import { Countdown } from 'react-countdown-component-guide';
     
     export default function App() {
       return <Countdown duration={10} />;
